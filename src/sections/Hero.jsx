@@ -1,4 +1,6 @@
 import { words } from "../constants/index.js"
+import Button from "../components/Button.jsx"
+import HeroExperience from "../components/Hero Models/HeroExperience.jsx"
 
 const Hero = () => {
   return (
@@ -8,6 +10,7 @@ const Hero = () => {
       </div>
 
       <div className="hero-layout">
+        {/* LEFT: HERO CONTENT*/}
         <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
             <div className="flex flex-col gap-7">
                 <div className="hero-text">
@@ -30,8 +33,23 @@ const Hero = () => {
                 <h1>into Real Projects</h1>
                 <h1>that Deliver Results</h1>
                 </div>
+                <div className="text-white-50 w-[calc(100%/2)] md:text-xl relative z-10 pointer-events-none">
+                    <p>Hello, I am Nuno!</p>
+                    <p>A software developer based in the UK. Passionate about continuous learning and creating impactful digital experiences.</p>
+                </div>
+                <Button 
+                className="md:w-80 md:h-16 w-60 h-12"
+                id="button"
+                text="See my Work"
+                />
             </div>
         </header>
+         {/* RIGHT: 3D MODEL*/}
+         <figure>
+          <div className="hero-3d-layout">
+            <HeroExperience />
+          </div>
+        </figure>
       </div>
     </section>
   )
