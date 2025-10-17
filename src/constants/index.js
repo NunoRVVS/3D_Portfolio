@@ -58,19 +58,19 @@ const logoIconsList = [
 
 const abilities = [
   {
-    imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    imgPath:"/images/multitasking.png",
+    title:"Technical Expertise",
+    desc:"Proficient in JavaScript, Python, Ruby, and Java. Experienced with React.js, Ruby on Rails, and Node.js to build responsive, high-performance applications.",
   },
   {
-    imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    imgPath:"/images/cogwheel.png",
+    title:"Software Development & DevOps",
+    desc:"Hands-on experience in full-stack development, REST API integration, CI/CD pipelines, and Agile collaboration. Skilled in testing with Jest and RSpec.",
   },
   {
-    imgPath: "/images/time.png",
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    imgPath:"/images/communication.png",
+    title:"Professional & Soft Skills",
+    desc:"Strong communicator and collaborator with mentoring experience. Fluent in multiple languages and adaptable across teams and technologies.",
   },
 ];
 
