@@ -43,6 +43,9 @@ const logoIconsList = [
     imgPath: "/images/logos/balfe's bicycle shop.png",
   },
   {
+    imgPath: "/images/logos/jactravel.png",
+  },
+  {
     imgPath: "/images/logos/domus stay.png",
   },
   {
@@ -52,7 +55,22 @@ const logoIconsList = [
     imgPath: "/images/logos/abbey tours ireland & uk.png",
   },
   {
+    imgPath: "/images/logos/sap.png",
+  },
+  {
+    imgPath: "/images/logos/balfe's bicycle shop.png",
+  },
+  {
     imgPath: "/images/logos/jactravel.png",
+  },
+  {
+    imgPath: "/images/logos/domus stay.png",
+  },
+  {
+    imgPath: "/images/logos/decathlon.png",
+  },
+  {
+    imgPath: "/images/logos/abbey tours ireland & uk.png",
   },
 ];
 
@@ -76,24 +94,28 @@ const abilities = [
 
 const techStackImgs = [
   {
-    name: "React Developer",
-    imgPath: "/images/logos/react.png",
+    name: "Cycling Advisor/Duty Manager",
+    imgPath: "/images/logos/decathlon.png",
   },
   {
-    name: "Python Developer",
-    imgPath: "/images/logos/python.svg",
+    name: "Business Technology Platform Developer Intern",
+    imgPath: "/images/logos/sap.png",
   },
   {
-    name: "Backend Developer",
-    imgPath: "/images/logos/node.png",
+    name: "Assistant Store Manager",
+    imgPath: "/images/logos/balfe's bicycle shop.png",
   },
   {
-    name: "Interactive Developer",
-    imgPath: "/images/logos/three.png",
+    name: "Groups Executive",
+    imgPath: "/images/logos/jactravel.png",
   },
   {
-    name: "Project Manager",
-    imgPath: "/images/logos/git.svg",
+    name: "Cycling Advisor",
+    imgPath: "/images/logos/decathlon.png",
+  },
+  {
+    name: "FIT Consultant",
+    imgPath: "/images/logos/abbey tours ireland & uk.svg",
   },
 ];
 
@@ -132,27 +154,26 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
+    review: '"Nuno was really an hands on approach in either learning and showing the curiosity throughout the internship. He was able to quickly adapt to the new technologies and tools being used and was always eager to take on new challenges."' + " - " + "BTP Developer team Leader - SAP",
+    imgPath: "/images/logos/sap.png",
     logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    title: "Business Technology Platform Developer Intern",
+    date: "April – July 2024",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Contributed to SAP S/4HANA and SAP BTP integration projects utilising ABAP",
+      "Developed API connectivity, data mapping, and cloud deployment solutions.",
+      "Ensured software stability and scalability through dedicated testing and debugging sessions.",
     ],
   },
   {
     review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
+    imgPath: "/images/logos/decathlon.png",
     logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    title: "Sales Advisor – Cycling Department ",
+    date: "May 2025 - Present",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Training new team members on internal ERP tools and digital sales systems.",
+      "Serving as Duty Manager, overseeing process efficiency and customer experience.",
     ],
   },
   {

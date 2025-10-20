@@ -1,8 +1,8 @@
 import Hero from "./sections/Hero.jsx"
 import ShowcaseSection from "./sections/ShowcaseSection.jsx"
 import NavBar from "./components/Navbar.jsx"
-import LogoSection from "./components/LogoSection.jsx"
-import FeatureCards from "./components/FeatureCards.jsx"
+import LogoSection from "./sections/LogoSection.jsx"
+import FeatureCards from "./sections/FeatureCards.jsx"
 import NewExperienceSection from "./sections/NewExperienceSection.jsx"
 
 const App = () => {

@@ -49,7 +49,7 @@ export function Room(props) {
           selection={screensRef}
           intensity={1.2} // Strength of the bloom
           luminanceThreshold={0.2} // Minimum luminance needed
-          luminanceSmoothing={0.9} // Smooth transition
+          luminanceSmoothing={1.1} // Smooth transition
           blendFunction={BlendFunction.ADD} // How it blends
         />
       </EffectComposer>
