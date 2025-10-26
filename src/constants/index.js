@@ -40,7 +40,7 @@ const logoIconsList = [
     imgPath: "/images/logos/sap.png",
   },
   {
-    imgPath: "/images/logos/balfe's bicycle shop.png",
+    imgPath: "/images/logos/balfes bicycle shop.png",
   },
   {
     imgPath: "/images/logos/jactravel.png",
@@ -58,7 +58,7 @@ const logoIconsList = [
     imgPath: "/images/logos/sap.png",
   },
   {
-    imgPath: "/images/logos/balfe's bicycle shop.png",
+    imgPath: "/images/logos/balfes bicycle shop.png",
   },
   {
     imgPath: "/images/logos/jactravel.png",
@@ -103,7 +103,7 @@ const techStackImgs = [
   },
   {
     name: "Assistant Store Manager",
-    imgPath: "/images/logos/balfe's bicycle shop.png",
+    imgPath: "/images/logos/balfes bicycle shop.png",
   },
   {
     name: "Groups Executive",
@@ -156,7 +156,7 @@ const expCards = [
   {
     review: '"Nuno was really an hands on approach in either learning and showing the curiosity throughout the internship. He was able to quickly adapt to the new technologies and tools being used and was always eager to take on new challenges."' + " - " + "BTP Developer team Leader - SAP",
     imgPath: "/images/logos/sap.png",
-    logoPath: "/images/logo1.png",
+    logoPath: "/images/logos/sap.png",
     title: "Business Technology Platform Developer Intern",
     date: "April – July 2024",
     responsibilities: [
@@ -166,9 +166,9 @@ const expCards = [
     ],
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+    review: "He has the ambition, the willpower and the dedication to succeed in whatever he puts his mind to. A great team player and a quick learner, I am sure he will be a great asset to any team lucky enough to have him onboard." + " - " + "Cycling Department Manager - Ricardo de Sousa",
     imgPath: "/images/logos/decathlon.png",
-    logoPath: "/images/logo2.png",
+    logoPath: "/images/logos/decathlon.png",
     title: "Sales Advisor – Cycling Department ",
     date: "May 2025 - Present",
     responsibilities: [
@@ -177,14 +177,14 @@ const expCards = [
     ],
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    review: "Nuno is a fast learner and hard worker. Specially, when assimilating IT system that need to be used for operational procedures within the store. There was a good sense of Digital marketing. Which from time to time helped the team in creating a more engaging website profile" + " - " + "Regional Manager - Mathew Heathrow",
+    imgPath: "/images/logos/balfes bicycle shop.png",
+    logoPath: "/images/logos/balfes bicycle shop.png",
+    title: "Assistant Store Manager",
+    date: "September 2022 - June 2023",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
+      "Supporting the store manager on the many daily tasks. Such, covering admin and operational tasks to provide the best working flow throughout the day.",
+      "Brand ambassador in workshops and cycling events",
       "Coordinated with the product team to implement features based on feedback.",
     ],
   },
