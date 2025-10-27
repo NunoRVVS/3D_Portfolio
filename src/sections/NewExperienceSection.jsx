@@ -19,9 +19,9 @@ const NewExperienceSection = () => {
                 scrollTrigger: {
                     trigger: card,
                     start: 'top 80%',
-                }
-            })
-        })
+                },
+            });
+        });
 
         gsap.to('.timeline', {
             transformOrigin: 'bottom bottom',
@@ -33,10 +33,10 @@ const NewExperienceSection = () => {
                 onUpdate: (self) => {
                     gsap.to('.timeline', {
                         scaleY: 1 - self.progress,
-                    })
-                }
+                    });
+                },
             },
-        })
+        });
 
         gsap.utils.toArray('.expText').forEach((text) => {
             gsap.from(text, {
@@ -47,9 +47,9 @@ const NewExperienceSection = () => {
                 scrollTrigger: {
                     trigger: text,
                     start: 'top 60%',
-                }
-            })
-        })
+                },
+            });
+        }, "<")
     }, []);
 
   return (
