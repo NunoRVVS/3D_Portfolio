@@ -11,10 +11,6 @@ const navLinks = [
     name: "Skills",
     link: "#skills",
   },
-  // {
-  //   name: "Testimonials",
-  //   link: "#testimonials",
-  // },
 ];
 
 const words = [
@@ -252,19 +248,13 @@ const expLogos = [
 
 const socialImgs = [
   {
-    name: "insta",
-    imgPath: "/images/insta.png",
-  },
-  {
-    name: "fb",
-    imgPath: "/images/fb.png",
-  },
-  {
-    name: "x",
-    imgPath: "/images/x.png",
+    name: "github",
+    url: "https://github.com/NunoRVVS",
+    imgPath: "/images/github.png",
   },
   {
     name: "linkedin",
+    url:"https://www.linkedin.com/in/nunorsoares-web-developer/",
     imgPath: "/images/linkedin.png",
   },
 ];

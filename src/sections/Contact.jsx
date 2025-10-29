@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import ContactExperience from '../components/ContactExperience';
 import TitleHeader from '../components/TitleHeader'; // Assuming TitleHeader exists in components
 import emailjs from '@emailjs/browser'; // If you plan to use EmailJS for form submission
 
 const Contact = () => {
+  const formRef = useRef(null);
   const [form, setForm] = useState({
     name: '',
     email: '',
@@ -20,18 +21,17 @@ const Contact = () => {
     e.preventDefault()
     setLoading(true)
     // This is where you would integrate with an email service like EmailJS
-    setLoading(true)
     try{  
       await emailjs.sendForm(
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
-      )
+        formRef.current,
+        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
       // Reset form after successful submission
-      setFormData({ name: '', email: '', message: '' });
+      )
+      setForm({ name: '', email: '', message: '' });
     } catch(error){
-      console.error(error)
-      alert('Something went wrong. Please try again.')
+      console.log('EMAILJS error,', error)
     } finally{
       setLoading(false)
     }
@@ -49,7 +49,7 @@ const Contact = () => {
           {/*Contact form - Left Side*/}
           <div className="xl:col-span-5">
             <div className="flex-center card-border rounded-xl p-10">
-              <form onSubmit={handleSubmit} className="w-full flex flex-col gap-7">
+              <form onSubmit={handleSubmit} className="w-full flex flex-col gap-7" ref={formRef}>
               <div>
                 <label className="form-label">
                   <span className="form-label-text">Your Name</span>
