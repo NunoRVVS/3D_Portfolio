@@ -18,53 +18,65 @@ const words = [
     { text:'Concepts', imgPath: '/images/concepts.svg' },
     { text:'Code', imgPath: '/images/code.svg' },
     { text:'Designs', imgPath: '/images/designs.svg' },
-    { text:'Ideas', imgPath: '/images/ideas.svg' },
-    { text:'Concepts', imgPath: '/images/concepts.svg' },
-    { text:'Code', imgPath: '/images/code.svg' },
-    { text:'Designs', imgPath: '/images/designs.svg' }
+    { text:'Dreams', imgPath: '/images/ideas.svg' },
+    { text:'Expectations', imgPath: '/images/concepts.svg' },
+    { text:'Perceptions', imgPath: '/images/code.svg' },
+    { text:'Features', imgPath: '/images/designs.svg' }
 ];
 
 const counterItems = [
-  { value: 2, suffix: "", label: "Years in Software Development", icon: "💻" },
+  { value: 2, suffix: "", label: "Years in Software Development", icon: "💻"},
   { value: 40, suffix: "+", label: "Projects Completed", icon: "🚀" },
   { value: 10, suffix: "+", label: "Years in Tourism Industry", icon: "🌍" },
 ];
 
 const logoIconsList = [
   {
+    name: "sap",
     imgPath: "/images/logos/sap.png",
   },
   {
+    name: "balfes",
     imgPath: "/images/logos/balfes bicycle shop.png",
   },
   {
+    name: "jactravel",
     imgPath: "/images/logos/jactravel.png",
   },
   {
+    name: "domus",
     imgPath: "/images/logos/domus stay.png",
   },
   {
+    name: "decathlon",
     imgPath: "/images/logos/decathlon.png",
   },
   {
+    name: "abbey",
     imgPath: "/images/logos/abbey tours ireland & uk.png",
   },
   {
+    name: "sap-clone",
     imgPath: "/images/logos/sap.png",
   },
   {
+    name: "balfes-clone",
     imgPath: "/images/logos/balfes bicycle shop.png",
   },
   {
+    name: "jactravel-clone",
     imgPath: "/images/logos/jactravel.png",
   },
   {
+    name: "domus-clone",
     imgPath: "/images/logos/domus stay.png",
   },
   {
+    name: "decathlon-clone",
     imgPath: "/images/logos/decathlon.png",
   },
   {
+    name: "abbey-clone",
     imgPath: "/images/logos/abbey tours ireland & uk.png",
   },
 ];
@@ -110,7 +122,7 @@ const techStackImgs = [
   },
   {
     name: "FIT Consultant",
-    imgPath: "/images/logos/abbey tours ireland & uk.svg",
+    imgPath: "/images/logos/abbey tours ireland & uk.png",
   },
 ];
 
@@ -136,8 +148,8 @@ const techStackIcons = [
   {
     name: "Ruby Developer",
     modelPath: "/models/ruby-transformed.glb",
-    scale: 1.28,
-    rotation: [1, -Math.PI / 2, 0],
+    scale: 1.3,
+    rotation: [2.7, -Math.PI / 2, 1.6],
   },
   {
     name: "Project Manager",

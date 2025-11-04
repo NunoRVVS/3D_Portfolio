@@ -1,8 +1,9 @@
+import { forwardRef } from 'react';
 import * as THREE from 'three';
 
-const HeroLights = () => {
+const HeroLights = forwardRef((props, ref) => {
   return (
-    <>
+    <group ref={ref}>
     {/*front top right spotlight*/}
     <spotLight 
     position={[1, 5, 6]}
@@ -39,8 +40,8 @@ const HeroLights = () => {
     intensity={10}
     color="#7209b7"
     />
-    </>
+    </group>
   )
-}
+});
 
 export default HeroLights
