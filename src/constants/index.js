@@ -40,8 +40,8 @@ const logoIconsList = [
     imgPath: "/images/logos/balfes bicycle shop.png",
   },
   {
-    name: "jactravel",
-    imgPath: "/images/logos/jactravel.png",
+    name: "intercontinental-clone",
+    imgPath: "/images/logos/intercontinental.png",
   },
   {
     name: "domus",
@@ -64,10 +64,6 @@ const logoIconsList = [
     imgPath: "/images/logos/balfes bicycle shop.png",
   },
   {
-    name: "jactravel-clone",
-    imgPath: "/images/logos/jactravel.png",
-  },
-  {
     name: "domus-clone",
     imgPath: "/images/logos/domus stay.png",
   },
@@ -78,6 +74,10 @@ const logoIconsList = [
   {
     name: "abbey-clone",
     imgPath: "/images/logos/abbey tours ireland & uk.png",
+  },
+  {
+    name: "intercontinental-clone",
+    imgPath: "/images/logos/intercontinental.png",
   },
 ];
 

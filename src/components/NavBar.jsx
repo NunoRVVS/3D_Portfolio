@@ -19,11 +19,11 @@ const NavBar = () => {
     <header className={`navbar ${scrolled ? 'scrolled' : 'not-scrolled'}`}>
       <div className="inner">
         <a className="logo" href="#hero">
-          Nuno | RVVS
+          Nuno | React | JS | Python 
         </a>
         <nav className="desktop">
           <ul>
-            {navLinks.map(({ link, name}) => (
+            {navLinks.map(({ link, name }) => (
               <li key={name} className="group">
                 <a href={link}>
                   <span>{name}</span>

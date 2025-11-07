@@ -12,8 +12,8 @@ const LogoSection = () => {
   return (
     <div className="md:my-20 my-10 relative">
       <div className="gradient-edge" />
-      <div className="marquee h-52">
-        <div className="marquee-box md:gap-12 gap-5">
+      <div className="marquee h-50">
+        <div className="marquee-box md:gap-15 gap-7">
           {logoIconsList.map((icon, index) => (
             <LogoIcon key={`${icon.name}-${index}`} icon={icon} />
           ))}
