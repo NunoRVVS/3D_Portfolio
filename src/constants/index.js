@@ -18,10 +18,10 @@ const words = [
     { text:'Concepts', imgPath: '/images/concepts.svg' },
     { text:'Code', imgPath: '/images/code.svg' },
     { text:'Designs', imgPath: '/images/designs.svg' },
-    { text:'Dreams', imgPath: '/images/ideas.svg' },
-    { text:'Expectations', imgPath: '/images/concepts.svg' },
-    { text:'Perceptions', imgPath: '/images/code.svg' },
-    { text:'Features', imgPath: '/images/designs.svg' }
+    { text:'Dreams', imgPath: '/images/dreams.svg' },
+    { text:'Expectations', imgPath: '/images/expectations_logo.svg' },
+    { text:'Perceptions', imgPath: '/images/perceptions.svg' },
+    { text:'Features', imgPath: '/images/features.svg' },
 ];
 
 const counterItems = [
