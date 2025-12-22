@@ -25,7 +25,7 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 2, suffix: "", label: "Years in Software Development", icon: "💻"},
+  { value: 2, suffix: "+", label: "Years in Software Development", icon: "💻"},
   { value: 40, suffix: "+", label: "Projects Completed", icon: "🚀" },
   { value: 10, suffix: "+", label: "Years in Tourism Industry", icon: "🌍" },
 ];
