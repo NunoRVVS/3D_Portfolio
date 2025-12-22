@@ -56,6 +56,10 @@ const logoIconsList = [
     imgPath: "/images/logos/abbey tours ireland & uk.png",
   },
   {
+    name: "said-business-school",
+    imgPath: "/images/logos/said-business-school.png",
+  },
+  {
     name: "sap-clone",
     imgPath: "/images/logos/sap.png",
   },
@@ -78,6 +82,10 @@ const logoIconsList = [
   {
     name: "intercontinental-clone",
     imgPath: "/images/logos/intercontinental.png",
+  },
+  {
+    name: "said-business-school-clone",
+    imgPath: "/images/logos/said-business-school.png",
   },
 ];
 
@@ -160,6 +168,18 @@ const techStackIcons = [
 ];
 
 const expCards = [
+  {
+    review: "“I have been impressed by Nuno’s depth of knowledge, inquisitive nature, and thoughtful approach to development. He engages with technology with both curiosity and purpose, and demonstrates a clear commitment to continuous improvement, strengthening his technical skills while deepening his understanding to deliver value and create meaningful impact.”" + "-" + "Jyotveer Gill Associate Director of Education Technology & Web Development Saïd Business School, University of Oxford.",
+    imgPath: "/images/logos/said-business-school.png",
+    logoPath: "/images/logos/said-business-school.png",
+    title: "Mentorship Sessions",
+    date: "September 2025",
+    responsibilities: [
+      "Received mentorship from industry professionals, gaining insights into best practices and emerging trends in software development.",
+      "Got insights from experienced developers on real-world applications and problem-solving techniques.",
+      "Acquired good feedbaack on branching out personal projects and improving coding skills.",
+    ],
+  },
   {
     review: '"Nuno was really an hands on approach in either learning and showing the curiosity throughout the internship. He was able to quickly adapt to the new technologies and tools being used and was always eager to take on new challenges."' + " - " + "BTP Developer team Leader - SAP",
     imgPath: "/images/logos/sap.png",

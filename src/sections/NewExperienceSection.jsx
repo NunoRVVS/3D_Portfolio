@@ -1,4 +1,4 @@
-import { expCards } from '../constants'
+import { expCards } from '../constants/index.js'
 import TitleHeader from '../components/TitleHeader'
 import GlowCard from '../components/GlowCard'
 import gsap from 'gsap'
